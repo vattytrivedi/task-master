@@ -4,11 +4,11 @@
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>
 <br>
-<a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Signup Page</b></a>
+<a href="https://udacityfrontendscholarship.github.io/task-master/signup.html"><b>Signup Page</b></a>
 
 # Current Status
 
-- HomePage is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
+- HomePage,Login, Signup Page is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
 # Next Up
 
 - User Account Page(Shashank Working on it) 
