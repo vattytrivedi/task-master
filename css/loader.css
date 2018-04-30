@@ -1,8 +1,8 @@
 #loader
 {
-    width: 50px;
-    height: 50px;
-    border: 5px solid black;
+    width: 80px;
+    height: 80px;
+    border: 5px solid beige;
     border-top-color: red;
     border-radius: 100%;
     position: fixed;
@@ -27,14 +27,34 @@
 
 }
 
-.blur
+.blur > *:not(#loader)
 {
-    background: #e9e9e9;
-   
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    opacity: 0.5;
+
+    filter: blur(3px);
 }
+
+@keyframes anin {
+    0% {
+
+        transform: translatey(5px);
+    }
+    50% {
+
+        transform: translatey(-20px);
+    }
+    100% {
+
+        transform: translatey(5px);
+    }
+}
+
+.arrow img
+{
+    margin-bottom: 50px;
+}
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    animation: anin 6s ease-in-out infinite;
+    }
